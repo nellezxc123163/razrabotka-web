@@ -1,0 +1,22 @@
+.recipes-title { font-size: 22px; margin-bottom: 16px; }
+
+.recipes-search {
+  width: 100%;
+  max-width: 420px;
+  padding: 10px 14px;
+  border: 1px solid #d4d4d4;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.recipes-search:focus { border-color: #fb923c; }
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.recipes-empty { color: #888; }

@@ -1,0 +1,36 @@
+.recipe-page { max-width: 700px; }
+.recipe-back { font-size: 14px; color: #ea580c; }
+.recipe-name { font-size: 26px; margin: 8px 0 4px; }
+.recipe-meta { color: #777; margin-bottom: 20px; }
+
+.recipe-block {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.recipe-block h2 { font-size: 17px; margin-bottom: 10px; }
+
+.recipe-block ul,
+.recipe-block ol { padding-left: 20px; line-height: 1.7; }
+
+.recipe-sub { color: #888; font-size: 13px; }
+.recipe-allergens { margin-top: 10px; font-size: 13px; color: #b45309; }
+.recipe-line { margin-top: 10px; font-size: 14px; color: #555; }
+
+.recipe-nutrients { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.recipe-nutrients span {
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.recipe-fact { display: flex; gap: 12px; padding: 4px 0; font-size: 14px; }
+.recipe-fact dt { width: 110px; color: #888; }
+.recipe-tags { display: flex; gap: 8px; margin-top: 12px; }
+.recipe-tag { font-size: 13px; color: #c2410c; }
+.recipe-not-found { color: #888; }

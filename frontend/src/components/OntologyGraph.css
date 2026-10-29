@@ -1,0 +1,20 @@
+.graph-wrap {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  padding: 12px;
+  overflow-x: auto;
+}
+
+.graph { width: 100%; min-width: 900px; height: auto; display: block; }
+.graph-node { fill: #ececff; stroke: #9370db; stroke-width: 1.2; }
+.graph-node-en { font-size: 12px; fill: #333; }
+.graph-node-ru { font-size: 12px; fill: #333; }
+.graph-edge { stroke: #9a8c7a; stroke-width: 1; fill: none; }
+.graph-edge-label {
+  font-size: 10px;
+  fill: #555;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 4px;
+}
